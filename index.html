@@ -4,34 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Capibara</title>
-    <link rel="stylesheet" href="script.js">
-
-    <style>
-        .light-theme {
-            background-color: #ffffff;
-            color: #000000;
-        }
-        .dark-theme {
-            background-color: #121212;
-            color: #ffffff;
-        }
-    </style>
-
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <button id="toggle-theme">Cambiar Tema</button>
-    <script src="script.js"></script>
 
-    <p>El capibara (Hydrochoerus hydrochaeris) es el roedor más grande del mundo. Vive en América del Sur y se encuentra en regiones cercanas al agua.</p>
-    
-    <h2>Principales características:</h2>
-    <ul>
-        <li><strong>Tamaño:</strong> Puede medir hasta 1.3 metros de largo y pesar entre 35 y 65 kg.</li>
-        <li><strong>Hábitat:</strong> Vive en zonas húmedas como ríos, lagos y pantanos.</li>
-        <li><strong>Alimentación:</strong> Es herbívoro, se alimenta de pasto, plantas acuáticas y corteza de árboles.</li>
-        <li><strong>Comportamiento:</strong> Es sociable y vive en grupos de 10 a 20 individuos.</li>
-        <li><strong>Habilidades:</strong> Gran nadador, puede permanecer bajo el agua por varios minutos.</li>
-    </ul>
-    <img src="capibara.jpg" alt="">
+<body>
+    <div class="container">
+        <button id="toggle-theme">Cambiar Tema</button>
+        <h2> Capibara </h2>
+
+        <div class="content">
+            <p>El capibara (<em>Hydrochoerus hydrochaeris</em>) es el roedor más grande del mundo. Vive en América del Sur y se encuentra en regiones cercanas al agua.</p>
+            
+            <h2>Principales características:</h2>
+            <ul>
+                <li><strong>Tamaño:</strong> Puede medir hasta 1.3 metros de largo y pesar entre 35 y 65 kg.</li>
+                <li><strong>Hábitat:</strong> Vive en zonas húmedas como ríos, lagos y pantanos.</li>
+                <li><strong>Alimentación:</strong> Es herbívoro, se alimenta de pasto, plantas acuáticas y corteza de árboles.</li>
+                <li><strong>Comportamiento:</strong> Es sociable y vive en grupos de 10 a 20 individuos.</li>
+                <li><strong>Habilidades:</strong> Gran nadador, puede permanecer bajo el agua por varios minutos.</li>
+            </ul>
+
+            <div class="image-container">
+                <img src="capibara.jpg" alt="capibara">
+            </div>
+        </div>
+    </div>
+
+    <!-- Cargar el script al final para asegurar que los elementos existen -->
+    <script src="script.js"></script>
 </body>
 </html>
